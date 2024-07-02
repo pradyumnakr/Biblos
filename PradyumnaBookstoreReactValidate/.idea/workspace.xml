@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31392bac-d6bc-44f8-93b4-b07fe2f717a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/AppFooter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/AppHeader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/CartTable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/CategoryBookList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/CategoryBookListItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/CategoryNav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/HeaderDropdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/HeaderSearchBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/Home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/HomeCategoryList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/checkoutpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/adult-drama.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/all-adults-here.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/atomic-habits.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/come-and-get-it.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/eragon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/house-in-the-cerulean-sea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/how-to-be-an-adult-in-relationships.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/in-sunshine-or-in-shadow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/infinity-alchemist.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/intelligent-investor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/is-it-you-me-or-adult-add.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/legacy-of-mercy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/lifeskills-for-adult-children.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/power-of-habit.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/power-of-habit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/reckless.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/rules-of-estrangement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/steve-jobs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/table-for-two.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/teenage-brain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/the-alchemist.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/the-hobbit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/the-nightingale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/the-storm-we-made.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/books/think-and-grow-rich.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/categories/classics.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/categories/fantasy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/categories/mystery.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/categories/romance.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/footer/icons8-facebook-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/footer/icons8-instagram-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/footer/icons8-twitter-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/site/B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/site/Main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/site/icons8-cart-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/site/icons8-category-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/site/icons8-search-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/site/icons8-user-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/site/icons8-x-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/site/icons8-x-26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/site/icons8-x-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/AppFooter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/AppHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Cart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/CartTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/CategoryBookList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/CategoryBookListItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/CategoryNav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/CheckoutPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Confirmation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/HeaderDropdown.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/HomeCategoryList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/contexts/CartContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/contexts/CategoryContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/reducers/CartReducer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/types.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/utils.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/setupTests.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/server">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2feKYFYWH0P4DigoxcT9FzTr6An" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build server.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.server.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pradyumnakombethotaramgopal/Documents/CS5244/PradyumnaBookstoreReactValidate/server/src/main/webapp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/pradyumnakombethotaramgopal/Documents/CS5244/PradyumnaBookstoreReactValidate/src/main/java/org/example/Main.java&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/pradyumnakombethotaramgopal/Documents/CS5244/PradyumnaBookstoreReactValidate/client/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/client/src/assets/css" />
+      <recent name="$PROJECT_DIR$/client/src" />
+      <recent name="$PROJECT_DIR$/client/src/components" />
+      <recent name="$PROJECT_DIR$/client" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.18" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : PradyumnaBookstoreReactValidate.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/PradyumnaBookstoreReactValidate" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="7871af3c-eb16-4096-b63a-3c8b858ffd3f" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51789" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : PradyumnaBookstoreReactValidate.war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="Tomcat Server.Tomcat" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-53826d6a" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31392bac-d6bc-44f8-93b4-b07fe2f717a5" name="Changes" comment="" />
+      <created>1714156151356</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714156151356</updated>
+      <workItem from="1714156152638" duration="26919000" />
+      <workItem from="1714241368916" duration="19184000" />
+      <workItem from="1714436747261" duration="851000" />
+      <workItem from="1714437611081" duration="75000" />
+      <workItem from="1714438768076" duration="481000" />
+      <workItem from="1715030084902" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
