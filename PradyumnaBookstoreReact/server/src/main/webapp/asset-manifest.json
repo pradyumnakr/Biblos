@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/PradyumnaBookstoreReact/static/css/main.9c005ed3.css",
+    "main.js": "/PradyumnaBookstoreReact/static/js/main.d215cab7.js",
+    "static/js/453.419a5d54.chunk.js": "/PradyumnaBookstoreReact/static/js/453.419a5d54.chunk.js",
+    "static/media/Main.png": "/PradyumnaBookstoreReact/static/media/Main.e619cb7c4441f17c09c9.png",
+    "static/media/think-and-grow-rich.jpg": "/PradyumnaBookstoreReact/static/media/think-and-grow-rich.061b21fe3fb161ddbe7d.jpg",
+    "static/media/the-alchemist.jpg": "/PradyumnaBookstoreReact/static/media/the-alchemist.6f7b261d7e8368066dbf.jpg",
+    "static/media/atomic-habits.jpg": "/PradyumnaBookstoreReact/static/media/atomic-habits.8d5037a251c0256aea48.jpg",
+    "static/media/power-of-habit.jpg": "/PradyumnaBookstoreReact/static/media/power-of-habit.1db9e7523b421833d9c2.jpg",
+    "static/media/intelligent-investor.jpg": "/PradyumnaBookstoreReact/static/media/intelligent-investor.909bcc404a4ae69de4ed.jpg",
+    "static/media/B.png": "/PradyumnaBookstoreReact/static/media/B.804490f626e3cb7e7696.png",
+    "static/media/classics.jpg": "/PradyumnaBookstoreReact/static/media/classics.3eb59cfce62548ebfd19.jpg",
+    "static/media/steve-jobs.jpg": "/PradyumnaBookstoreReact/static/media/steve-jobs.e69a643b00daee29f95a.jpg",
+    "index.html": "/PradyumnaBookstoreReact/index.html",
+    "main.9c005ed3.css.map": "/PradyumnaBookstoreReact/static/css/main.9c005ed3.css.map",
+    "main.d215cab7.js.map": "/PradyumnaBookstoreReact/static/js/main.d215cab7.js.map",
+    "453.419a5d54.chunk.js.map": "/PradyumnaBookstoreReact/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c005ed3.css",
+    "static/js/main.d215cab7.js"
+  ]
+}
