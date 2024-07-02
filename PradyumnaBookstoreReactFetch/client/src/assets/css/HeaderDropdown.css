@@ -1,0 +1,33 @@
+
+.header-dropdown ul {
+    background-color: white;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color: black;
+    display: none;
+    padding: 0;
+    min-width: 160px;
+    list-style-type: none;
+    margin-top: 0;
+}
+
+.header-dropdown ul li {
+    padding: 0.25em 0.5em;
+    display: block;
+    transition: all 1s;
+
+}
+
+.header-dropdown ul li:hover {
+    background: lightgray;
+}
+
+.header-dropdown:hover ul {
+    display: block;
+}
+
+.header-dropdown {
+    display: block;
+    position: relative;
+}
+

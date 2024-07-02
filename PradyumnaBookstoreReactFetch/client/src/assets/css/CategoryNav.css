@@ -1,0 +1,35 @@
+
+.bottom_navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute;
+    top:85px;
+    background: #FFE8E8;
+
+}
+.bottom_navbar li{
+    display: inline-block;
+    padding: 0 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bottom_navbar li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.bottom_navbar li a.selected {
+    color: #4929F1;
+}
+
+.bottom_navbar ul li a.button-selected-category-button {
+    color: purple;
+}
+
+.button-selected-category-button{
+    color: #007bff;
+}
+

@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/PradyumnaBookstoreReactFetch/static/css/main.8d3c07bc.css",
+    "main.js": "/PradyumnaBookstoreReactFetch/static/js/main.e2327815.js",
+    "static/js/453.419a5d54.chunk.js": "/PradyumnaBookstoreReactFetch/static/js/453.419a5d54.chunk.js",
+    "static/media/Main.png": "/PradyumnaBookstoreReactFetch/static/media/Main.e619cb7c4441f17c09c9.png",
+    "static/media/legacy-of-mercy.jpg": "/PradyumnaBookstoreReactFetch/static/media/legacy-of-mercy.6b6ddb9e6cc7633641fe.jpg",
+    "static/media/atomic-habits.jpg": "/PradyumnaBookstoreReactFetch/static/media/atomic-habits.8d5037a251c0256aea48.jpg",
+    "static/media/eragon.jpg": "/PradyumnaBookstoreReactFetch/static/media/eragon.8dcf23af1610461519f3.jpg",
+    "static/media/in-sunshine-or-in-shadow.jpg": "/PradyumnaBookstoreReactFetch/static/media/in-sunshine-or-in-shadow.a403b3459bf56d705892.jpg",
+    "static/media/lifeskills-for-adult-children.jpg": "/PradyumnaBookstoreReactFetch/static/media/lifeskills-for-adult-children.e080a31932a759cf990c.jpg",
+    "static/media/come-and-get-it.jpg": "/PradyumnaBookstoreReactFetch/static/media/come-and-get-it.460efc46dd2df939760b.jpg",
+    "static/media/is-it-you-me-or-adult-add.jpg": "/PradyumnaBookstoreReactFetch/static/media/is-it-you-me-or-adult-add.ffe858f59f34ed3bec1d.jpg",
+    "static/media/the-nightingale.jpg": "/PradyumnaBookstoreReactFetch/static/media/the-nightingale.78bd87179e66024edf69.jpg",
+    "static/media/house-in-the-cerulean-sea.jpg": "/PradyumnaBookstoreReactFetch/static/media/house-in-the-cerulean-sea.9e87bf93879aea6fc2b9.jpg",
+    "static/media/the-storm-we-made.jpg": "/PradyumnaBookstoreReactFetch/static/media/the-storm-we-made.7d55c5525cbb23689120.jpg",
+    "static/media/power-of-habit.jpg": "/PradyumnaBookstoreReactFetch/static/media/power-of-habit.1db9e7523b421833d9c2.jpg",
+    "static/media/reckless.jpg": "/PradyumnaBookstoreReactFetch/static/media/reckless.61b65abcb9f3cfe4aa56.jpg",
+    "static/media/table-for-two.jpg": "/PradyumnaBookstoreReactFetch/static/media/table-for-two.853fc6eebb595bc6cf35.jpg",
+    "static/media/teenage-brain.jpg": "/PradyumnaBookstoreReactFetch/static/media/teenage-brain.32211a88bcbce54b068b.jpg",
+    "static/media/think-and-grow-rich.jpg": "/PradyumnaBookstoreReactFetch/static/media/think-and-grow-rich.931333668c9ac594e66e.jpg",
+    "static/media/all-adults-here.jpg": "/PradyumnaBookstoreReactFetch/static/media/all-adults-here.df1320b7b2ba5bb56ee0.jpg",
+    "static/media/the-hobbit.jpg": "/PradyumnaBookstoreReactFetch/static/media/the-hobbit.50996405dc9434d76a1e.jpg",
+    "static/media/infinity-alchemist.jpg": "/PradyumnaBookstoreReactFetch/static/media/infinity-alchemist.7e235a7f807edc558e11.jpg",
+    "static/media/the-alchemist.jpg": "/PradyumnaBookstoreReactFetch/static/media/the-alchemist.d652a744c7605b747280.jpg",
+    "static/media/adult-drama.jpg": "/PradyumnaBookstoreReactFetch/static/media/adult-drama.9a68ceac02360410bcf5.jpg",
+    "static/media/B.png": "/PradyumnaBookstoreReactFetch/static/media/B.804490f626e3cb7e7696.png",
+    "static/media/power-of-habit.jpeg": "/PradyumnaBookstoreReactFetch/static/media/power-of-habit.d86afb8372a60172338d.jpeg",
+    "static/media/classics.jpg": "/PradyumnaBookstoreReactFetch/static/media/classics.3eb59cfce62548ebfd19.jpg",
+    "static/media/steve-jobs.jpg": "/PradyumnaBookstoreReactFetch/static/media/steve-jobs.e69a643b00daee29f95a.jpg",
+    "static/media/intelligent-investor.jpg": "/PradyumnaBookstoreReactFetch/static/media/intelligent-investor.8e9df9e2bac2bc112328.jpg",
+    "static/media/how-to-be-an-adult-in-relationships.jpg": "/PradyumnaBookstoreReactFetch/static/media/how-to-be-an-adult-in-relationships.f87f57e61aed427b521c.jpg",
+    "static/media/rules-of-estrangement.jpg": "/PradyumnaBookstoreReactFetch/static/media/rules-of-estrangement.69973b9004d3945bb5a6.jpg",
+    "index.html": "/PradyumnaBookstoreReactFetch/index.html",
+    "main.8d3c07bc.css.map": "/PradyumnaBookstoreReactFetch/static/css/main.8d3c07bc.css.map",
+    "main.e2327815.js.map": "/PradyumnaBookstoreReactFetch/static/js/main.e2327815.js.map",
+    "453.419a5d54.chunk.js.map": "/PradyumnaBookstoreReactFetch/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d3c07bc.css",
+    "static/js/main.e2327815.js"
+  ]
+}
