@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head><title>HTTP Status 500 – Internal Server Error</title>
+    <style type="text/css">body {
+        font-family: Tahoma, Arial, sans-serif;
+    }
+
+    h1, h2, h3, b {
+        color: white;
+        background-color: #525D76;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    a {
+        color: black;
+    }
+
+    .line {
+        height: 1px;
+        background-color: #525D76;
+        border: none;
+    }</style>
+</head>
+<body><h1>HTTP Status 500 – Internal Server Error</h1>
+<hr class="line"/>
+<p><b>Type</b> Exception Report</p>
+<p><b>Message</b> Request failed.</p>
+<p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p>
+<p><b>Exception</b></p>
+<pre>jakarta.servlet.ServletException: org.glassfish.jersey.server.ContainerException: com.fasterxml.jackson.databind.JsonMappingException: Unexpected character (&#39;,&#39; (code 44)): expected a value
+ at [Source: (org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$UnCloseableInputStream); line: 8, column: 23] (through reference chain: business.order.OrderForm[&quot;customerForm&quot;])
+	org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:409)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:357)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre>
+<p><b>Root Cause</b></p>
+<pre>org.glassfish.jersey.server.ContainerException: com.fasterxml.jackson.databind.JsonMappingException: Unexpected character (&#39;,&#39; (code 44)): expected a value
+ at [Source: (org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$UnCloseableInputStream); line: 8, column: 23] (through reference chain: business.order.OrderForm[&quot;customerForm&quot;])
+	org.glassfish.jersey.servlet.internal.ResponseWriter.rethrow(ResponseWriter.java:255)
+	org.glassfish.jersey.servlet.internal.ResponseWriter.failure(ResponseWriter.java:237)
+	org.glassfish.jersey.server.ServerRuntime$Responder.process(ServerRuntime.java:456)
+	org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:269)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:240)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:697)
+	org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:357)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre>
+<p><b>Root Cause</b></p>
+<pre>com.fasterxml.jackson.databind.JsonMappingException: Unexpected character (&#39;,&#39; (code 44)): expected a value
+ at [Source: (org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$UnCloseableInputStream); line: 8, column: 23] (through reference chain: business.order.OrderForm[&quot;customerForm&quot;])
+	com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:402)
+	com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:361)
+	com.fasterxml.jackson.databind.deser.BeanDeserializerBase.wrapAndThrow(BeanDeserializerBase.java:1853)
+	com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:316)
+	com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177)
+	com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	com.fasterxml.jackson.databind.ObjectReader._bind(ObjectReader.java:2079)
+	com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1229)
+	org.glassfish.jersey.jackson.internal.jackson.jaxrs.base.ProviderBase.readFrom(ProviderBase.java:831)
+	org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$TerminalReaderInterceptor.invokeReadFrom(ReaderInterceptorExecutor.java:233)
+	org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$TerminalReaderInterceptor.aroundReadFrom(ReaderInterceptorExecutor.java:212)
+	org.glassfish.jersey.message.internal.ReaderInterceptorExecutor.proceed(ReaderInterceptorExecutor.java:132)
+	org.glassfish.jersey.server.internal.MappableExceptionWrapperInterceptor.aroundReadFrom(MappableExceptionWrapperInterceptor.java:49)
+	org.glassfish.jersey.message.internal.ReaderInterceptorExecutor.proceed(ReaderInterceptorExecutor.java:132)
+	org.glassfish.jersey.message.internal.MessageBodyFactory.readFrom(MessageBodyFactory.java:1072)
+	org.glassfish.jersey.message.internal.InboundMessageContext.readEntity(InboundMessageContext.java:919)
+	org.glassfish.jersey.server.ContainerRequest.readEntity(ContainerRequest.java:290)
+	org.glassfish.jersey.server.internal.inject.EntityParamValueParamProvider$EntityValueSupplier.apply(EntityParamValueParamProvider.java:73)
+	org.glassfish.jersey.server.internal.inject.EntityParamValueParamProvider$EntityValueSupplier.apply(EntityParamValueParamProvider.java:56)
+	org.glassfish.jersey.server.spi.internal.ParamValueFactoryWithSource.apply(ParamValueFactoryWithSource.java:50)
+	org.glassfish.jersey.server.spi.internal.ParameterValueHelper.getParameterValues(ParameterValueHelper.java:68)
+	org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$AbstractMethodParamInvoker.getParamValues(JavaResourceMethodDispatcherProvider.java:109)
+	org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:219)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:81)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:478)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:400)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
+	org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:261)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:240)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:697)
+	org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:357)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre>
+<p><b>Root Cause</b></p>
+<pre>com.fasterxml.jackson.core.JsonParseException: Unexpected character (&#39;,&#39; (code 44)): expected a value
+ at [Source: (org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$UnCloseableInputStream); line: 8, column: 23]
+	com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2477)
+	com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:750)
+	com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:674)
+	com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2757)
+	com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:859)
+	com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:423)
+	com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1409)
+	com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+	com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129)
+	com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:314)
+	com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177)
+	com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	com.fasterxml.jackson.databind.ObjectReader._bind(ObjectReader.java:2079)
+	com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1229)
+	org.glassfish.jersey.jackson.internal.jackson.jaxrs.base.ProviderBase.readFrom(ProviderBase.java:831)
+	org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$TerminalReaderInterceptor.invokeReadFrom(ReaderInterceptorExecutor.java:233)
+	org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$TerminalReaderInterceptor.aroundReadFrom(ReaderInterceptorExecutor.java:212)
+	org.glassfish.jersey.message.internal.ReaderInterceptorExecutor.proceed(ReaderInterceptorExecutor.java:132)
+	org.glassfish.jersey.server.internal.MappableExceptionWrapperInterceptor.aroundReadFrom(MappableExceptionWrapperInterceptor.java:49)
+	org.glassfish.jersey.message.internal.ReaderInterceptorExecutor.proceed(ReaderInterceptorExecutor.java:132)
+	org.glassfish.jersey.message.internal.MessageBodyFactory.readFrom(MessageBodyFactory.java:1072)
+	org.glassfish.jersey.message.internal.InboundMessageContext.readEntity(InboundMessageContext.java:919)
+	org.glassfish.jersey.server.ContainerRequest.readEntity(ContainerRequest.java:290)
+	org.glassfish.jersey.server.internal.inject.EntityParamValueParamProvider$EntityValueSupplier.apply(EntityParamValueParamProvider.java:73)
+	org.glassfish.jersey.server.internal.inject.EntityParamValueParamProvider$EntityValueSupplier.apply(EntityParamValueParamProvider.java:56)
+	org.glassfish.jersey.server.spi.internal.ParamValueFactoryWithSource.apply(ParamValueFactoryWithSource.java:50)
+	org.glassfish.jersey.server.spi.internal.ParameterValueHelper.getParameterValues(ParameterValueHelper.java:68)
+	org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$AbstractMethodParamInvoker.getParamValues(JavaResourceMethodDispatcherProvider.java:109)
+	org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:219)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:81)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:478)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:400)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
+	org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:261)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:240)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:697)
+	org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:357)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre>
+<p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p>
+<hr class="line"/>
+<h3>Apache Tomcat/10.1.18</h3></body>
+</html>

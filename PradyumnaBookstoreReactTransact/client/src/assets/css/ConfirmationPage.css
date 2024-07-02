@@ -1,0 +1,47 @@
+.custoinformation >li {
+    display: flex;
+    justify-content: center;
+    padding:8px;
+}
+
+.customerInfo > li{
+    margin-top: 1em;
+}
+
+.confirmationView > p{
+    font-weight: bold;
+    display: flex;
+}
+.cust-head {
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    padding-top: 2em;
+}
+.center-text {
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+}
+.center-text p{
+    text-align: center;
+}
+
+.white-border-gray-bg{
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.confirmationView{
+    min-height: 80vh;
+}
+
+.shopping-buttons{
+    padding-top: 1em;
+}
+
+

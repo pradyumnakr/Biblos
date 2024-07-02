@@ -1,0 +1,38 @@
+{
+  "order": {
+    "orderId": 1,
+    "amount": 29,
+    "dateCreated": 1715109152000,
+    "confirmationNumber": 580552745,
+    "customerId": 1
+  },
+  "customer": {
+    "customerId": 1,
+    "customerName": "Prayumna",
+    "address": "2251Pimmit",
+    "phone": "571-244-0710",
+    "email": "pradyumnahebbar552@gmail.com",
+    "ccNumber": "4444333322221111",
+    "ccExpDate": 1714536000000
+  },
+  "lineItems": [
+    {
+      "bookId": 1008,
+      "orderId": 1,
+      "quantity": 1
+    }
+  ],
+  "books": [
+    {
+      "bookId": 1008,
+      "title": "Eragon",
+      "author": "Christopher Paolini",
+      "description": "Eragon is the first book in The Inheritance Cycle by American fantasy writer Christopher Paolini",
+      "price": 19,
+      "rating": 4,
+      "isPublic": true,
+      "isFeatured": false,
+      "categoryId": 1002
+    }
+  ]
+}
