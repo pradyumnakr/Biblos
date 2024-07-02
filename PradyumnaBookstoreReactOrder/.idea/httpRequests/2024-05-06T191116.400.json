@@ -1,0 +1,6 @@
+{
+  "reason": "Bad Request",
+  "message": "Book category Id does not match.",
+  "fieldName": null,
+  "error": true
+}

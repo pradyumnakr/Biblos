@@ -1,0 +1,6 @@
+{
+  "reason": "Bad Request",
+  "message": "Invalid email field",
+  "fieldName": "email",
+  "error": true
+}

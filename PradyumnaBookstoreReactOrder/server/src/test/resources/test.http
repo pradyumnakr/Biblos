@@ -1,0 +1,60 @@
+# curl 'http://localhost:8080/PradyumnaBookstoreReactOrder/api/orders'
+#  -H 'sec-ch-ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"'
+#  -H 'Accept: application/json, text/plain, */*'
+#  -H 'Content-Type: application/json'
+#  -H 'Referer: http://localhost:3000/'
+#  -H 'sec-ch-ua-mobile: ?1'
+#  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36'
+#  -H 'sec-ch-ua-platform: "Android"'
+#  --data-raw '{"customerForm":{"name":"Pradyumna Kombethota Ramgopal","address":"2251 Pimmit Drive","phone":"5712440710","email":"pradyumnahebbar552@gmail.com","ccNumber":"4444333322221111","ccExpiryMonth":4,"ccExpiryYear":2024},"cart":{"itemArray":[{"id":1008,"book":{"bookId":1008,"isPublic":true,"price":19,"title":"Eragon","author":"Christopher Paolini","categoryId":1002},"quantity":5},{"id":1009,"book":{"bookId":1009,"isPublic":true,"price":10,"title":"The Hobbit","author":"J. R. R. Tolkien","categoryId":1002},"quantity":3}]}}'
+# curl 'http://localhost:8080/PradyumnaBookstoreReactOrder/api/orders'
+#  -H 'sec-ch-ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"'
+#  -H 'Accept: application/json, text/plain, */*'
+#  -H 'Content-Type: application/json'
+#  -H 'Referer: http://localhost:3000/'
+#  -H 'sec-ch-ua-mobile: ?1'
+#  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36'
+#  -H 'sec-ch-ua-platform: "Android"'
+#  --data-raw '{"customerForm":{"name":"Pradyumna Kombethota Ramgopal","address":"2251 Pimmit Drive","phone":"5712440710","email":"pradyumnahebbar552@gmail.com","ccNumber":"4444333322221111","ccExpiryMonth":4,"ccExpiryYear":2024},"cart":{"itemArray":[{"id":1008,"book":{"bookId":1008,"isPublic":true,"price":19,"title":"Eragon","author":"Christopher Paolini","categoryId":1002},"quantity":1}]}}'
+POST http://localhost:8080/PradyumnaBookstoreReactOrder/api/orders
+sec-ch-ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Referer: http://localhost:3000/
+sec-ch-ua-mobile: ?1
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+sec-ch-ua-platform: "Android"
+Content-Type: application/json
+
+{
+  "customerForm": {
+    "name": "Prayumna",
+    "address": "2251Pimmit",
+    "phone": "571-244-0710",
+    "email": "pradyumnahebbar552@gmail.com",
+    "ccNumber": "4444333322221111",
+    "ccExpiryMonth": 5,
+    "ccExpiryYear": 2024
+  },
+  "cart": {
+    "itemArray": [
+      {
+        "id": 1008,
+        "book": {
+          "bookId": 1008,
+          "isPublic": true,
+          "price": 19,
+          "title": "Eragon",
+          "author": "Christopher Paolini",
+          "categoryId": 1002
+        },
+        "quantity": 1
+      }
+    ]
+  }
+}
+
+###
+
+
+
+

@@ -1,0 +1,40 @@
+
+footer{
+    width: 100%;
+    background: #873838;
+    bottom: 0;
+}
+
+footer .footer_main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .footer_main .tag_one{
+    margin: 10px 0;
+}
+
+footer .footer_main .tag_two{
+    margin: 18px;
+}
+
+footer .footer_main .tag_three{
+    margin: 15px;
+}
+
+footer .footer_main .tag_one p{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer .footer_main .tag_two a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+footer .footer_main .tag_three img{
+    margin-right: 10px;
+}
